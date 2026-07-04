@@ -3,6 +3,10 @@
 JobRadar - busca vagas (LinkedIn, Indeed, Google Jobs) e gera mensagem
 personalizada por vaga usando um modelo local via Ollama (opcional).
 
+Autor: Lucas Zafalon
+GitHub: https://github.com/LucasZafalon
+LinkedIn: linkedin.com/in/lucaszafalon
+
 Este script NÃO envia candidaturas nem preenche formulários em nenhuma
 plataforma. Ele apenas busca vagas publicamente e, se você quiser, sugere
 um texto de mensagem para você revisar e enviar manualmente.
