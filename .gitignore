@@ -1,0 +1,24 @@
+# Configuração pessoal gerada pelo script (contém seu perfil e preferências de busca)
+jobradar_config.json
+
+# Planilhas geradas (dados de execução, não fazem parte do código do projeto)
+vagas_personalizadas*.xlsx
+
+# Gravações de terminal / demos usados no README
+*.cast
+*.gif
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Credenciais / cookies (caso algum dia sejam usados por sites que exigem login)
+*.env
+credentials.json
+cookies.txt
+cookies.json
+
+# Configuração local de ferramentas de desenvolvimento (não faz parte do projeto)
+.claude/
