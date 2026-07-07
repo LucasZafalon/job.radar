@@ -126,11 +126,8 @@ Quando perguntar `Gerar mensagem personalizada com IA local (Ollama)?`, responda
 1. Confirme (ou ajuste) a URL do Ollama e o nome do modelo baixado (ex: `llama3.2:latest`)
 2. Cole um resumo curto do seu perfil profissional — quanto mais específico (cargo-alvo, principais skills, anos de experiência), melhor a mensagem gerada
 
->**💡 Pra confirmar o nome exato do modelo baixado, rode `ollama list` num
-> terminal — use o nome exatamente como aparece na coluna NAME (incluindo a
-> parte depois dos dois-pontos, ex: `llama3.2:latest`). Se o Ollama estiver
-> rodando de forma não-padrão (ex: dentro de um container Docker/Podman),
-> pode ser necessário ajustar a URL também.**
+> 💡 **Pra confirmar o nome exato do modelo baixado**, rode `ollama list` num terminal — use o nome exatamente como aparece na coluna NAME (incluindo a parte depois dos dois-pontos, ex: `llama3.2:latest`).
+> Se o Ollama estiver rodando de forma não-padrão (ex: dentro de um container Docker/Podman), pode ser necessário ajustar a URL também.
 
 O script testa a conexão com o Ollama antes de começar. Se ele não conseguir se conectar, avisa e segue a busca normalmente — só que sem mensagem personalizada (a coluna "Mensagem" fica em branco).
 
